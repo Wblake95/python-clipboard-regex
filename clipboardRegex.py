@@ -21,4 +21,4 @@ phone= phonePattern.findall(pyclip.paste(text=True))
 print("Phone numbers found:", phone)
 
 email = emailPattern.findall(pyclip.paste(text=True))
-print("emails found: ", email)
+print("emails found:", email)
